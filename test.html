@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Topic Test</title>
+
+        <!-- Custom CSS -->
+        <link href="bower_components/bootstrap-sass/assets/stylesheets/style.css" rel="stylesheet">
+       <!--   <link rel="stylesheet" href="bootstrap-sass/assets/stylesheets/animate.min.css"> -->
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+       <script src="bower_components/bootstrap-sass/assets/javascripts/custom.js" type="text/javascript" charset="utf-8" async defer></script>
+    </head>
+
+<body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Flash Code</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Topics</a></li>
+            <li><a href="index.html#flashcards">Flash Cards</a></li>
+            <li><a href="index.html">Quizes</a></li>
+            <li><a href="Test.html">Topic Tests</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    <br>
+    <br>
+
+<header class="header" class="text-center">
+ <h2>Topic Test</h2>
+<br>
+</header><!-- /header -->
+
+<div class="col-md-8">
+<form action="#" method="post" accept-charset="utf-8" class="quiz" name="quiz" id="row">
+<ol id="questionList">
+<li>What is getElementById()?</li><br><br>
+ <ul>
+  <li><input type="radio"  name="q1"  class="radio" value="wrong"> A way to target an element by it's class</input></li><br><br><br>
+  <li><input type="radio"  name="q1"  class="radio" value="wrong"> A cool tatoo idea</input></li><br><br><br>
+  <li><input type="radio"  name="q1"  class="radio" value="correct"> A way to target an element by it's Id</input></li><br><br><br>
+ </ul>
+
+<li>What is the difference between getElementById() and querySelector?</li><br><br>
+ <ul>
+  <li><input type="radio" name="q2"  class="radio" value="wrong"> There is no difference; they are both made up words from Narnia</input></li><br><br><br>
+  <li><input type="radio" name="q2"  class="radio" value="correct"> The by Id targets by the "id name" and the "query selector" can select any element</input></li><br><br><br>
+  <li><input type="radio" name="q2"  class="radio" value="wrong"> They are both ways to target the div and store the value</input></li><br><br><br>
+</ul>
+
+<li>What is var and what does it do?</li><br><br>
+ <ul>
+  <li><input type="radio"  name="q3"  class="radio" value="wrong"> Var is shorthand for varsity and it represents advanced concepts</input></li><br><br><br>
+  <li><input type="radio"  name="q3"  class="radio" value="correct"> Var is a way to store data</input></li><br><br><br>
+  <li><input type="radio"  name="q3"  class="radio" value="wrong"> Var is when you've coded for a varied length of time.</input></li><br><br><br>
+ </ul>
+
+<li>what is a the difference between a local and a global variable?</li><br><br>
+ <ul>
+  <li><input type="radio" name="q4"  class="radio" class="radio" value="wrong"> Global variables work in international zipcodes and local don't.</input></li><br><br>
+  <li><input type="radio" name="q4" class="radio"   class="radio" class="radio" value="correct"> Global refers to the outer scope that is accessible to all scopes; local is limited to the scope the var is entered into.</input></li><br><br>
+  <li><input type="radio" name="q4" class="radio" value="wrong"> local variables are accessible, even if your browser is offline. Global must be connected to wifi.</input></li><br><br>
+ </ul><br><br><br><br>
+
+ <li>What is the difference between querySelector() and querySelectorAll() ?</li><br><br>
+ <ul>
+  <li><input type="radio"  name="q5" class="radio" value="wrong"> QuerySelector is limited by scope and location</input></li><br><br><br>
+  <li><input type="radio"  name="q5" class="radio" value="correct"> Query selector is limited to returning the first result, while the all will capture all elements of specified type</input></li><br><br><br>
+  <li><input type="radio"  name="q5" class="radio" value="wrong"> QuerySelector will only capture variables with an established id</input></li><br><br>
+ </ul><br><br>
+
+  <li>What is a constructor function and what is it's purpose?</li><br><br>
+ <ul>
+  <li><input type="radio"  name="q6" class="radio" value="wrong"> Constructor functions are used to engineer houses, most often homes with AI technology</input></li><br><br><br>
+  <li><input type="radio"  name="q6" class="radio" value="correct"> They are used to build other functions--a type of template to unify source and minimize input</input></li><br><br><br>
+  <li><input type="radio"  name="q6" class="radio" value="wrong">a framework from jquery, a library that aids in grouping specified functionality.</input></li><br><br><br>
+ </ul><br>
+
+  <li>What is the correct way to define a function? (a) var name = function() { -or-(b) function name() {</li><br><br>
+ <ul>
+  <li><input type="radio"  name="q7" class="radio" value="correct"> It depends on when you need your function called, because of the way that it's hoisted. </input></li><br><br><br>
+  <li><input type="radio"  name="q7" class="radio" value="wrong"> Var is always the best, because it's values are stored.</input></li><br><br><br>
+  <li><input type="radio"  name="q7" class="radio" value="wrong"> var is not neccessary, when you define function.</input></li><br><br>
+ </ul><br><br>
+
+  <li>What is an Array?</li><br><br>
+ <ul>
+  <li><input type="radio"  name="q8" class="radio" value="wrong"> A variable for constructor functions.</input></li><br><br><br>
+  <li><input type="radio"  name="q8" class="radio" value="wrong"> A group of elements that can only contain numbers.</input></li><br><br><br>
+  <li><input type="radio"  name="q8" class="radio" value="correct"> A group of elements that can contain all data types.</input></li><br><br>
+ </ul><br><br>
+
+  <li>How do you target an element in an Array?</li><br><br>
+ <ul>
+  <li><input type="radio"  name="q9" class="radio" value="wrong">You can use GPS coordinates, Lattitude is the more accurate approach.</input></li><br><br><br>
+  <li><input type="radio"  name="q9" class="radio" value="correct"> You use the index number and Array name. </input></li><br><br><br>
+  <li><input type="radio"  name="q9" class="radio" value="wrong"> By using DOM and child elements.</input></li><br><br>
+ </ul><br><br>
+
+<!--   <li>What is getElementById()?</li><br><br>
+ <ul>
+  <li><input type="radio"  name="q10" class="radio" value="correct"> Var is shorthand for varsity and it represents advanced concepts</input></li><br><br><br>
+  <li><input type="radio"  name="q10" class="radio" value="wrong"> Var is a way to store data</input></li><br><br><br>
+  <li><input type="radio"  name="q10" class="radio" value="wrong"> var is when you've coded for a varied length of time.</input></li><br><br>
+ </ul><br><br> -->
+
+ <!--  <li>What is getElementById()?</li><br><br>
+ <ul>
+  <li><input type="radio"  name="q11" class="radio" value="correct"> Var is shorthand for varsity and it represents advanced concepts</input></li><br><br><br>
+  <li><input type="radio"  name="q11" class="radio" value="wrong"> Var is a way to store data</input></li><br><br><br>
+  <li><input type="radio"  name="q11" class="radio" value="wrong"> var is when you've coded for a varied length of time.</input></li><br><br><br>
+ </ul><br><br> -->
+
+  <!-- <li>What is getElementById()?</li><br><br>
+  <ul>
+  <li><input type="radio"  name="q12"  class="radio" value="correct"> Var is shorthand for varsity and it represents advanced concepts</input></li><br><br><br>
+  <li><input type="radio"  name="q12"  class="radio" value="wrong"> Var is a way to store data</input></li><br><br><br>
+  <li><input type="radio"  name="q12"  class="radio" value="wrong"> var is when you've coded for a varied length of time.</input></li><br><br>
+ </ul><br><br>
+
+  <li>What is getElementById()?</li><br><br>
+ <ul>
+  <li><input type="radio"  name="q13"  class="radio" value="correct"> Var is shorthand for varsity and it represents advanced concepts</input></li><br><br><br>
+  <li><input type="radio"  name="q13"  class="radio" value="wrong"> Var is a way to store data</input></li><br><br><br>
+  <li><input type="radio"  name="q13"  class="radio" value="wrong"> var is when you've coded for a varied length of time.</input></li><br><br>
+ </ul><br><br>
+
+  <li>What is getElementById()?</li><br><br>
+ <ul><br>
+  <li><input type="radio"  name="q14"  class="radio" value="correct"> Var is shorthand for varsity and it represents advanced concepts</input></li><br><br><br>
+  <li><input type="radio"  name="q14"  class="radio" value="wrong"> Var is a way to store data</input></li><br><br><br>
+  <li><input type="radio"  name="q14"  class="radio" value="wrong"> var is when you've coded for a varied length of time.</input></li><br><br>
+ </ul> -->
+
+</ol>
+
+  <input type="button" id="submit" value="Submit" onclick="checkedQuestions();">
+  <input type="reset" id="clear" value="Clear">
+  <div id="answers">The correct Answers will display here.</div>
+<br>
+
+<!-- <textarea rows="5" cols="60" name="Answers">The correct Answers will display here.</textarea> -->
+  </form>
+  <div id="soundcloud" class = "col-md-4">
+   <iframe width="200%" height="400" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/30505863&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+ </div>
+
+</div>
+
+
+
+</body>
+</html>
